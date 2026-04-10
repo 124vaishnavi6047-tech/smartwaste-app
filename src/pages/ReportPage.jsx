@@ -6,7 +6,7 @@ const ReportPage = ({ reports, setReports }) => {
   const navigate = useNavigate();
   const role = localStorage.getItem("role");
   const token = localStorage.getItem("token");
-  // const [image, setImage] = useState(null);
+  
   const [preview, setPreview] = useState(null);
   const [location, setLocation] = useState("");
   const [description, setDescription] = useState("");
